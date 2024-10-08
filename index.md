@@ -1,6 +1,7 @@
 # Welcome to Our Landing Page
 
 Welcome to our amazing landing page. We are excited to have you here!
+أهلا وسهلا بكم في دورة برمجة تطبيقات الهاتف الجوال
 
 ## Features
 - **Feature 1:** Description of feature 1.
