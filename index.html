@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دورة برمجة تطبيقات الهاتف الجوال باستخدام Flutter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            direction: rtl;
+        }
+
+        h1,
+        h2 {
+            color: #ffffff;
+        }
+
+        .day {
+            margin: 10px 0;
+        }
+
+        .content {
+            display: none;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #1e1e1e;
+            border-radius: 5px;
+        }
+
+        .day button {
+            background-color: #1e90ff;
+            color: #ffffff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            width: 100%;
+            text-align: right;
+        }
+
+        .day button:hover {
+            background-color: #1c86ee;
+        }
+    </style>
+    <script>
+        function toggleContent(day) {
+            var content = document.getElementById(day);
+            if (content.style.display === "none") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>دورة برمجة تطبيقات الهاتف الجوال باستخدام Flutter</h1>
+
+    <div class="day">
+        <button onclick="toggleContent('day1')">اليوم الأول: مقدمة إلى Flutter</button>
+        <div id="day1" class="content">
+            <p>محتوى اليوم الأول: مقدمة إلى Flutter، إعداد بيئة التطوير، إنشاء أول تطبيق.</p>
+        </div>
+    </div>
+
+    <div class="day">
+        <button onclick="toggleContent('day2')">اليوم الثاني: أساسيات Dart</button>
+        <div id="day2" class="content">
+            <p>محتوى اليوم الثاني: المتغيرات، الأنواع، العمليات، التحكم في التدفق.</p>
+        </div>
+    </div>
+
+    <div class="day">
+        <button onclick="toggleContent('day3')">اليوم الثالث: الواجهات الرسومية</button>
+        <div id="day3" class="content">
+            <p>محتوى اليوم الثالث: المكونات الأساسية، التخطيطات، التفاعل مع المستخدم.</p>
+        </div>
+    </div>
+
+    <div class="day">
+        <button onclick="toggleContent('day4')">اليوم الرابع: إدارة الحالة</button>
+        <div id="day4" class="content">
+            <p>محتوى اليوم الرابع: إدارة الحالة باستخدام setState، Provider، Bloc.</p>
+        </div>
+    </div>
+
+    <div class="day">
+        <button onclick="toggleContent('day5')">اليوم الخامس: التعامل مع البيانات</button>
+        <div id="day5" class="content">
+            <p>محتوى اليوم الخامس: استهلاك API، التعامل مع JSON، التخزين المحلي.</p>
+        </div>
+    </div>
+
+    <div class="day">
+        <button onclick="toggleContent('day6')">اليوم السادس: التنقل بين الشاشات</button>
+        <div id="day6" class="content">
+            <p>محتوى اليوم السادس: التنقل بين الشاشات، تمرير البيانات بين الشاشات.</p>
+        </div>
+    </div>
+
+    <div class="day">
+        <button onclick="toggleContent('day7')">اليوم السابع: تصميم واجهات المستخدم</button>
+        <div id="day7" class="content">
+            <p>محتوى اليوم السابع: تصميم واجهات المستخدم، استخدام Widgets متقدمة.</p>
+        </div>
+    </div>
+
+    <div class="day">
+        <button onclick="toggleContent('day8')">اليوم الثامن: اختبار التطبيقات</button>
+        <div id="day8" class="content">
+            <p>محتوى اليوم الثامن: اختبار الوحدات، اختبار الواجهات، أدوات الاختبار.</p>
+        </div>
+    </div>
+
+    <div class="day">
+        <button onclick="toggleContent('day9')">اليوم التاسع: نشر التطبيق</button>
+        <div id="day9" class="content">
+            <p>محتوى اليوم التاسع: إعداد التطبيق للنشر، نشر التطبيق على المتاجر.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
